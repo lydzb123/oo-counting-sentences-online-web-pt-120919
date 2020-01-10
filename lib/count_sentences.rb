@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 class String
 
@@ -16,12 +16,7 @@ class String
   end
 
   def count_sentences
-    binding.pry
-    self.split(".")
-    self.split("!")
-    self.split("?")
-    #turns sentences into an array of sentences
-    self.count
+    self.split
 
   end
 end
